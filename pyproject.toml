@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "commitizen_cz_template"
+version = "0.1.0"
+description = "Template for commitizen cz"
+authors = ["Wei Lee <weilee.rx@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+commitizen = "^1.11.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
