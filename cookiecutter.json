@@ -1,0 +1,11 @@
+{
+    "author_name": "Author",
+    "email": "author@commitizen",
+    "github_username": "author_github_name",
+    "pypi_username": "{{cookiecutter.github_username}}",
+    "cz_name": "Project Name",
+    "package_name": "{{cookiecutter.cz_name}}",
+    "package_description": "description for the cz",
+    "version": "0.1.0",
+    "license":  ["MIT", "BSD", "ISCL", "Apache Software License 2.0", "Not open source"]
+}
