@@ -3,4 +3,5 @@
 ## Usage
 
 ## Author
+
 {{cookiecutter.author_name}} ({{cookiecutter.email}})

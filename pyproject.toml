@@ -17,3 +17,5 @@ version = "0.1.0"
 requires = ["poetry>=0.12"]
 build-backend = "poetry.masonry.api"
 
+[tool.poetry.plugins."commitizen.plugin"]
+cz_{{cookiecutter.cz_name}} = "{{cookiecutter.cz_name}}.cz_{{cookiecutter.cz_name}}:{{cookiecutter.cz_name | capitalize}}Cz"

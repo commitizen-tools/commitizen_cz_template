@@ -1,6 +1,6 @@
 # commitizen cz template
 
-cz template for [commitizen](https://github.com/Woile/commitizen)
+cz template for [commitizen](https://github.com/Woile/commitizen) v3
 
 ## Prerequiste
 * Python 3.x
@@ -12,7 +12,7 @@ cz template for [commitizen](https://github.com/Woile/commitizen)
 1. Initialize project through cookiecutter
 
     ```sh
-    cookiecutter gh:Lee-W/commitizen_cz_template
+    cookiecutter gh:commitizen-tools/commitizen_cz_template
     ```
 
     Note that you don't need to add cz prefix in your project name and package name.
@@ -22,7 +22,9 @@ cz template for [commitizen](https://github.com/Woile/commitizen)
 4. Test through `cz --name cz_[cz_name] [command]`
 
 ## Lisence
+
 [MIT](https://opensource.org/licenses/MIT)
 
 ## Author
+
 [Lee-W](https://github.com/Lee-W/) (weilee.rx@gmail.com)
