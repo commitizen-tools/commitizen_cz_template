@@ -7,6 +7,3 @@ class {{cookiecutter.cz_name | capitalize}}Cz(BaseCommitizen):
 
     def message(self, answers: dict) -> str:
         raise NotImplementedError("Not Implemented yet")
-
-
-discover_this = {{cookiecutter.cz_name | capitalize}}Cz
