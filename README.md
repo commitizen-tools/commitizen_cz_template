@@ -3,19 +3,21 @@
 cz template for [commitizen](https://github.com/Woile/commitizen) v3
 
 ## Prerequiste
-* Python 3.x
-* [cookiecutter](https://cookiecutter.readthedocs.io/en/latest/)
-    * `python -m pip install cookiecutter`
+
+- Python 3.x
+- Poetry 1.2.x
+- [cookiecutter](https://cookiecutter.readthedocs.io/en/latest/)
+  - `python -m pip install cookiecutter`
 
 ## Usage
 
 1. Initialize project through cookiecutter
 
-    ```sh
-    cookiecutter gh:commitizen-tools/commitizen_cz_template
-    ```
+   ```sh
+   cookiecutter gh:commitizen-tools/commitizen_cz_template
+   ```
 
-    Note that you don't need to add cz prefix in your project name and package name.
+   Note that you don't need to add cz prefix in your project name and package name.
 
 2. Implement the `questions` and `message` function in your `cz_[cz_name].py`
 3. Publish it to [pypi](https://pypi.org/) or install locally through `pip install .`
