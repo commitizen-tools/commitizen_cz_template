@@ -1,6 +1,6 @@
 # commitizen cz template
 
-cz template for [commitizen](https://github.com/commitizen-tools/commitizen) v3
+cz template for [commitizen](https://github.com/commitizen-tools/commitizen) v3+
 
 ## Prerequisites
 
