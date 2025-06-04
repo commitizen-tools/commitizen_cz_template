@@ -1,8 +1,8 @@
 # commitizen cz template
 
-cz template for [commitizen](https://github.com/Woile/commitizen) v3
+cz template for [commitizen](https://github.com/commitizen-tools/commitizen) v3+
 
-## Prerequiste
+## Prerequisites
 
 - Python 3.x
 - Poetry 1.2.x
@@ -23,10 +23,10 @@ cz template for [commitizen](https://github.com/Woile/commitizen) v3
 3. Publish it to [pypi](https://pypi.org/) or install locally through `pip install .`
 4. Test through `cz --name cz_[cz_name] [command]`
 
-## Lisence
+## License
 
 [MIT](https://opensource.org/licenses/MIT)
 
 ## Author
 
-[Lee-W](https://github.com/Lee-W/) (weilee.rx@gmail.com)
+[Lee-W](https://github.com/Lee-W/) (<weilee.rx@gmail.com>)
