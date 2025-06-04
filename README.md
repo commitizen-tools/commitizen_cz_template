@@ -29,4 +29,4 @@ cz template for [commitizen](https://github.com/commitizen-tools/commitizen) v3
 
 ## Author
 
-[Lee-W](https://github.com/Lee-W/) (weilee.rx@gmail.com)
+[Lee-W](https://github.com/Lee-W/) (<weilee.rx@gmail.com>)
