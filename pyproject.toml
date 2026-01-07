@@ -1,22 +1,15 @@
-[tool.poetry]
+[project]
 name = "commitizen_cz_template"
 version = "0.1.0"
 description = "Template for commitizen cz"
-authors = ["Wei Lee <weilee.rx@gmail.com>"]
-license = "MIT"
-
-[tool.poetry.dependencies]
-python = "^3.11"
-
-[tool.poetry.group.dev.dependencies]
-commitizen = "^3"
-
-[tool.commitizen]
-version = "0.1.0"
+requires-python = ">=3.10,<4.0"
+dependencies = [
+    "commitizen>=3",
+]
 
 [build-system]
-requires = ["poetry_core>=1.0.0"]
-build-backend = "poetry.core.masonry.api"
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
 
-[tool.poetry.plugins."commitizen.plugin"]
-cz_{{cookiecutter.cz_name}} = "{{cookiecutter.cz_name}}.cz_{{cookiecutter.cz_name}}:{{cookiecutter.cz_name | capitalize}}Cz"
+[project.entry-points."commitizen.plugin"]
+cz_{{cookiecutter.cz_name}} = "cz_{{cookiecutter.cz_name}}:{{cookiecutter.cz_name | capitalize}}Cz"

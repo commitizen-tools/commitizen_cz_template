@@ -4,8 +4,7 @@ cz template for [commitizen](https://github.com/commitizen-tools/commitizen) v3+
 
 ## Prerequisites
 
-- Python 3.x
-- Poetry 1.2.x
+- Python 3.10+
 - [cookiecutter](https://cookiecutter.readthedocs.io/en/latest/)
   - `python -m pip install cookiecutter`
 
